@@ -99,7 +99,7 @@ public class MemberController {
                         memberService.applyUpdate();
                         memberService.logout();
 
-                        memberView.printSuccess("삭제 성공");
+                        memberView.printSuccess("삭제 성공입니다.");
                     }
                     else
                         memberView.printFail("삭제 실패");
